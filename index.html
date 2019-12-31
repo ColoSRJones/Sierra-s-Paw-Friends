@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7e09908c25.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Ekko-Lightbox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+  <!-- Custom Style Sheet CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Sierra's Paw Friends</title>
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo-area">
+        <a href="index.html" class="logo">
+          <img src="./img/logo.png" alt="logo" id="imgLogo"><span class="phone">Sierra's Paw Friends (303) 305-9258</span>
+        </a>
+      </div>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="payments.html" class="nav-link">Payments</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">All-Inclusive Pet Sitting Visits</h1>
+              <p class="lead">We take care of your home in addition to your pets</p>
+              <a href="services.html" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Lockout Service</h1>
+              <p class="lead">Trained for medical emergencies with access to company owner's personal cellphone 24/7
+              </p>
+              <a href="#" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Locally Owned Business</h1>
+              <p class="lead">No Holiday surcharge so you can enjoy your vacation to the fullest</p>
+              <a href="about.html" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Home icon Section -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-home fa-3x mb-2"></i>
+          <h3>Home Visits</h3>
+          <p>Planning a vacation during the holiday or a break from work?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-taxi fa-3x mb-2"></i>
+          <h3>Pet Taxi</h3>
+          <p>Does your pet need a ride to the vet or the groomers?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-camera fa-3x mb-2"></i>
+          <h3>Daily Updates</h3>
+          <p>Worried about the status of your pet after long hours of work?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Heading Section -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are you ready to get started?</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo
+              accusamus assumenda optio soluta totam ex voluptatum enim delectus itaque!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Meet Our Clients</p>
+
+
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/dogResting.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/dogResting.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/dogSnack.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/dogSnack.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/dogWalking.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/dogWalking.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/dogSnack.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/dogSnack.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/dogWalking.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
+            data-width="561">
+            <img src="./img/dogWalking.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/dogResting.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="./img/dogResting.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+    <a class="nav-link" href="https://www.instagram.com/sierraspawsfriends" target="_blank">
+      <p class="text-center">More Clients...</p>
+    </a>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> Sierra's Paw Friends</p>
+        </div>
+      </div>
+    </div>
+    <!-- Social Media -->
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-paypal fa-2x" aria-hidden="true" style="color: #3b7bbf"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram fa-2x" style="color: #bc2a8d"></i></a>
+      <a href="#" target="_blank"><i class="fas fa-at fa-2x" style="color: orange"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-pinterest fa-2x" style="color: red"></i></a>
+    </div>
+
+  </footer>
+
+
+
+  <!-- jQuery.com CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Ekko-Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+  <script>
+    // Get current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
+</body>
+
+</html>

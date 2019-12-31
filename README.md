@@ -1,2 +1,1 @@
-# Sierra-s-Paw-Friends
-My daughter's dog sitting website
+#Sierra's Paw Friends Website
